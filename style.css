@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    background: lightblue;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "texto"
+    "cuadro"
+    "botones";
+    grid-template-rows: 10% 55% 35% ;
+    grid-template-columns: 10% 55% 35% ;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.texto{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    
+}
+.cuadro{   
+    grid-column: 4 / 3 ;
+    grid-row: -4 / -1 ;
+}
+.boton{
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
+

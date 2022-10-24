@@ -1,0 +1,39 @@
+.cuadro__cuadro{
+    background: #b9cad0;
+    margin-top: 10%;
+    margin-left: 10%;
+    border: 2px solid cornsilk;
+    height: 90%;
+    width: 80%;
+    border-radius: 20px;
+}
+#cuadro__muñeco{
+    margin-top: 30%;
+    margin-left: 15%;
+    height: 40%;
+    width: 70%;
+}
+.cuadro__texto-localizacion{
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5rem;
+
+}
+#cuadro__texto{
+    background: #b9cad0;
+    width: 280px;
+    height: 48px;
+    resize: none;
+    border: none;
+}
+
+#cuadro__boton{
+    margin-top: 20rem;
+    margin-left: 1.5rem;
+    width: 248px;
+    height: 52px;
+    background: #8596aa;
+    color: #0a3871;
+    border-radius: 24px;
+    display: none;
+}

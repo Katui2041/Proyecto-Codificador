@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="./css/logo.css" rel="stylesheet">
+    <link href="./css/texto.css" rel="stylesheet">
+    <link href="./css/cuadro.css" rel="stylesheet">
+    <link href="./css/boton.css" rel="stylesheet">
+    <script src="./algoritmo.js"></script>
+</head>
+    <body>
+        <main>
+            <div class="logo">
+                <img class="logo__imagen" src="./Imagenes/G.v2 (1).png" alt="logo artistico"><!--posible modificaciones-->
+            </div>
+            <div class="texto">
+                <div class="texto__posicion">
+                    <textarea id="texto__caja" cols="30" rows="10" placeholder="Ingrese el texto aqui" autofocus></textarea>
+                </div>
+            </div>
+            <div class="cuadro">
+                <div class="cuadro__cuadro">
+                    <img id="cuadro__muñeco" src="./Imagenes/Muñeco.png" alt="muñeco decorativo">
+                   <div class="cuadro__texto-localizacion">
+                    <textarea id="cuadro__texto" cols="30" rows="10" placeholder="Ingrese el texto que desees encriptar o desencriptar"></textarea>
+                   </div>  
+                   <button id="cuadro__boton" type="button" onclick="copiar()">Copiar</button>
+                </div>          
+ 
+            </div>
+            <div class="boton">
+
+                <div class="boton__interrogativo">   
+                    <div class="boton__signo">
+                        <p class="boton__texto">Solo letras minusculas y sin acentos</p>
+                    </div>                        
+                </div>
+                <div class="boton__botones">
+                    <button class="boton__encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                    <button class="boton__desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>  
+                </div>
+
+            </div>
+
+        </main>
+
+    </body>
+</html>

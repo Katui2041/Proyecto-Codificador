@@ -1,0 +1,31 @@
+.boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.boton__signo{
+    background: url(../Imagenes/Vector.png);
+    background-repeat: no-repeat;
+}
+.boton__texto{
+    margin: 1rem;
+    font-size: .85rem;
+}
+.boton__botones{
+    margin-bottom: 2rem;
+}
+.boton__encriptar{
+    width: 248px;
+    height: 52px;
+    background: #0a3871;
+    color: #fdfdfd;
+    border-radius: 24px;
+    margin-right: 10px;
+}
+.boton__desencriptar{
+    width: 248px;
+    height: 52px;
+    background: #8596aa;
+    color: #0a3871;
+    border-radius: 24px;
+}

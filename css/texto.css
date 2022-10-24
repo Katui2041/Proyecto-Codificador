@@ -1,0 +1,14 @@
+.texto__posicion{
+    margin-top: 10%;
+
+}
+#texto__caja{
+    background: lightblue;
+    font-size: 1.3rem;
+    color: #0a3871;
+    height: 58px;
+    width: 450px;
+    border: none;
+    resize: none; /*se usa el resize para cuando queremos evitar que se modifique el tamaño del textarea*/
+    outline: none; /*Outline se usa para eliminar que se marque los bordes al usar el cuadro*/
+}
